@@ -9,7 +9,7 @@ Clippy is a simple clipboard chrome extension that allows you to save texts for 
 
 #### How long will it take me to build Clippy? 
 I'm currently working on a timeline of May 22 - May 29 (edit: This is taking longer than expected). I have a few other things i'm working on, but I should be done before or on this deadline.... hopefully
-
+n
 #### 🚀 Features 
 • Save texts for future use • Categorize clipboard text • Clear all saved text 
 
