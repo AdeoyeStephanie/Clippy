@@ -4,7 +4,7 @@
     background-color: rgb(252, 236, 236);
     width: 417px;
     height: 548px;
-    position: absolute;
+    position: relative;
     left: 30%;
 }
 .white-container{
@@ -13,17 +13,21 @@
     border-radius: 60px;
     width: 384px;
     height: 490.27px;
-    box-shadow: 20px,40px,20px;
+    box-shadow: 500px, 300px, 450px;
+    margin: 20px;
     
 
 }
 
 .title{
     font-family: 'Chilanka', cursive;
+    position: relative;
+    top: 30px;
+    left: 30px;
 }
 
 .clippey-motto{
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'Chilanka', cursive;
 
 }
@@ -35,15 +39,27 @@
 }
 
 .paste-board{
+    position: absolute;
+    display: flex;
+    width: 311px;
+    height: 134px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: rgb(250, 236, 236);
+    top: 150px;
+    left: 30px;
 
 }
 .paste-board-text{
     font-family: 'Chilanka', cursive;
+    padding: 5px;
 
 }
 
 .action-buttons{
-
+    background-color: pink;
+    
 }
 .save-text{
     width: 85px;
