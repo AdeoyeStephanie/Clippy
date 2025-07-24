@@ -13,27 +13,42 @@
     border-radius: 60px;
     width: 384px;
     height: 490.27px;
-    box-shadow: 500px, 300px, 450px;
+    box-shadow: 8px 4px 5px rgb(184, 184, 184);
     margin: 20px;
     
 
 }
 
 .title{
+    display:flexbox;
     font-family: 'Chilanka', cursive;
     position: relative;
-    top: 30px;
-    left: 30px;
+    top: 10px;
+    left: 150px;
+    font-size: 2.9em;
+    font-weight: 400;
 }
 
 .clippey-motto{
-    font-size: 1em;
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    top: 23%;
+    left: 39%;
+    padding-top: 3px;
+    font-size: 0.8em;
     font-family: 'Chilanka', cursive;
+    justify-content: center ;
+    /*background-color: grey;*/
 
 }
 
 .logo-container{
     display: flex;
+    position: absolute;
+    top: 8%;
+    left: 19%;
     width: 60px;
     height: 63px;
 }
@@ -48,25 +63,41 @@
     border-style: solid;
     background-color: rgb(250, 236, 236);
     top: 150px;
-    left: 30px;
+    left: 56px;
+    justify-content: left;
 
 }
 .paste-board-text{
     font-family: 'Chilanka', cursive;
-    padding: 5px;
+    padding: 10px;
 
 }
 
 .action-buttons{
-    background-color: pink;
+    display: flex;
+    gap: 60px;
+    position: absolute;
+    top: 340px;
+    right: 91px;
+    justify-content: center;
+    
     
 }
 .save-text{
-    width: 85px;
-    height: 38px;
+    width: 100px;
+    height: 50px;
     font-family: 'Chilanka', cursive;
+    background-color: rgb(255, 247, 247);
+    border-radius: 10px;
+    font-size: 1em;
 }
 
 .view-saved{
+    width: 100px;
+    height: 50px;
+    padding: 3px;
     font-family: 'Chilanka', cursive;
+    background-color: rgb(255, 247, 247);
+    border-radius: 10px;
+    font-size: 1em;
 }
