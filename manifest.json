@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Clippey",
+  "version": "1.0",
+  "description": "Your one-stop clipboard :)",
+  "action": {
+    "default_popup": "index.html"
+
+  },
+  "permissions": ["storage", "clipboardWrite", "clipboardRead"]
+}
