@@ -1,4 +1,4 @@
-# Clippy
+# Clippey
 A Simple Clipboard Chrome Extension
 
 #### What is Clippy?
